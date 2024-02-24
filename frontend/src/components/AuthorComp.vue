@@ -15,7 +15,7 @@
 import PostList from "@/components/PostList.vue";
 
 export default {
-  name: 'Author',
+  name: 'AuthorComp',
   components: {
     PostList,
   },
