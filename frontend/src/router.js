@@ -1,16 +1,16 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 
-import Post from '@/components/Post'
-import Author from '@/components/Author'
+import PostComp from '@/components/PostComp'
+import AuthorComp from '@/components/AuthorComp'
 import PostsByTag from '@/components/PostsByTag'
 import AllPosts from '@/components/AllPosts'
 
 Vue.use(VueRouter)
 
 const routes = [
-    { path: '/author/:username', component: Author },
-    { path: '/post/:slug', component: Post },
+    { path: '/author/:username', component: AuthorComp },
+    { path: '/post/:slug', component: PostComp },
     { path: '/tag/:tag', component: PostsByTag },
     { path: '/', component: AllPosts },
 ]
