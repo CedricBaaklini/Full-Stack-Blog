@@ -28,7 +28,7 @@
   </div>
 </template>
 
-<script setup>
+<script>
 import AuthorLink from "@/components/AuthorLink.vue";
 
 export default {
